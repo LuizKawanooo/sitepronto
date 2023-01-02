@@ -1,0 +1,177 @@
+#endologicnameendologic{
+    position: absolute;
+    top: -180px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(231, 203, 41);
+    font-size: 100px;
+}
+#endologicname{
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#logo{
+    position:absolute;
+    left: 65%;
+}
+
+#parte2{
+    position: absolute;
+    top: 95%;
+    background-color: rgb(177, 187, 45);
+    width: 100%;
+    height: 5000px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+section {
+    height: 350vh;
+    background: linear-gradient(#ffffff, #ccb325);
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    text-decoration: none;
+}
+.btn::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+.btn:hover::after {
+    margin-top:-8px;
+}
+
+div.setaBaixo{
+    width: 40px;
+    height: 40px;
+    background-image: url("setaDown.png");
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+    animation-name: setaBaixo;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes setaBaixo{
+    0%{
+        top: 80%;
+    }
+    100%{
+        top: 90%;
+    }
+}
+
+#tipodetrabalho{
+    position: absolute;
+    top: 130%;
+    left: 57%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 25px;
+}
+
+#t1{
+    margin-top: 10px;
+}
+#t2{
+    margin-top: 10px;
+}
+#t3{
+    margin-top: 10px;
+}
+#t4{
+    margin-top: 10px;
+}
+#t5{
+    margin-top: 10px;
+}
+#t6{
+    margin-top: 10px;
+}
+#t7{
+    margin-top: 10px;
+}
+
+#trabalhamos{
+    position: absolute;
+    top: 145%;
+    left: 10%;
+    font-size: 50px;
+}
+
+#barrasepracao{
+    width: 2px;
+    height: 150px;
+    background-color: #000;
+    position: absolute;
+    top: 142%;
+    left: 49%;
+}
+
+#quemsomos{
+    position: absolute;
+    top: 215%;
+    left: 1%;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+#quemsomostexto{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 36%;
+    top: -90%;
+}
+
+
+.sketchfab-embed-wrapper{
+    position: absolute;
+    top: 240%;
+    left: 22%;
+}
+
+
+
+
+
+
+
+#tudo{
+    width: 1920px;
+    height: 2000px;
+}
